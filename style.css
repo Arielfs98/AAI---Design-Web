@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    background: #05072F;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+header {
+    height: 154px;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+nav .logo {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+nav .logo p:nth-child(1),
+nav .create-account button {
+    color: #CF092D;
+}
+
+nav .menu,
+.container-login .login,
+nav .create-account button {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+}
+
+nav .menu {
+    gap: 32px;
+}
+
+nav .container-login {
+    display: flex;
+    gap: 50px;
+}
+
+
+.container-login .login span {
+    padding: 0 5px;
+}
+
+.container-login .login span:nth-child(1) {
+    border-right: 2px solid red;
+}
+
+nav .create-account button {
+    background: none;
+    border: none;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+nav .create-account button:hover {
+    color: #fff;
+    transition: 500ms;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+    background: #01041B;
+    padding: 40px;
+    align-items: center;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.conteudo h1 {
+    font-family: Montserrat;
+    font-size: 124px;
+    font-weight: 700;
+    line-height: 151px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.conteudo p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    max-width: 800px;
+}
+
+.conteudo h1 span {
+    color: #CF092D;
+}
+
+.conteudo button {
+    background: #CF092D;
+    border: none;
+    width: 260px;
+    height: 70px;
+    border-radius: 999px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
+    cursor: pointer;
+}
+
+.conteudo button:nth-child(2) {
+    background: #410093;
+}
+
+.btn-links {
+    display: flex;
+    gap: 20px;
+}
+
+.capa img {
+    max-width: 650px;
+    max-width: 650px;
+    transition: 500ms;
+}
+
+.capa img:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+footer {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
